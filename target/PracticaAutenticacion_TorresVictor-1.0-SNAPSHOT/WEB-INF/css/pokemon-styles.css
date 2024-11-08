@@ -1,0 +1,110 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 8, 2024, 1:49:36 AM
+    Author     : GF63
+*/
+
+:root {
+    --pokemon-red: #FF1C1C;
+    --pokemon-dark-red: #CC0000;
+    --pokeball-white: #FFFFFF;
+    --pokeball-black: #222224;
+    --background-pattern: #f4f4f4;
+}
+
+.pokemon-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--pokeball-white);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-header {
+    text-align: center;
+    color: var(--pokemon-red);
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-form {
+    display: grid;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: grid;
+    gap: 5px;
+}
+
+.pokemon-label {
+    font-weight: bold;
+    color: var(--pokeball-black);
+}
+
+.pokemon-input {
+    padding: 8px;
+    border: 2px solid var(--pokemon-red);
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.pokemon-button {
+    background-color: var(--pokemon-red);
+    color: var(--pokeball-white);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pokemon-button:hover {
+    background-color: var(--pokemon-dark-red);
+    transform: translateY(-2px);
+}
+
+body {
+    background-color: var(--background-pattern);
+    background-image: 
+        linear-gradient(45deg, #f0f0f0 25%, transparent 25%, transparent 75%, #f0f0f0 75%, #f0f0f0),
+        linear-gradient(45deg, #f0f0f0 25%, transparent 25%, transparent 75%, #f0f0f0 75%, #f0f0f0);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-card {
+    background-color: var(--pokeball-white);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu {
+    background-color: var(--pokemon-red);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.nav-menu a {
+    color: var(--pokeball-white);
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.nav-menu a:hover {
+    background-color: var(--pokemon-dark-red);
+}

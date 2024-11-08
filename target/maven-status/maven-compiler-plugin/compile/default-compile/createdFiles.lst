@@ -1,0 +1,4 @@
+com\mycompany\practicaautenticacion_torresvictor\resources\JakartaEE8Resource.class
+filtros\FiltroAutenticacion.class
+servlets\Login.class
+com\mycompany\practicaautenticacion_torresvictor\JakartaRestConfiguration.class
